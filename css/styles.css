@@ -49,9 +49,17 @@ body {
 /*Main Content*/
 #main-content .col-xs-12 {
 	background-color: #20457C;
-	margin-bottom: 30px;
 	padding: 20px;
+	margin-top: 30px;
+
 }
 #main-content h3 {
 	text-align: center;
+}
+
+/* End Main Content */
+@media (max-width: 767px) {
+	#main-content{
+		width: 90%;
+	}
 }
