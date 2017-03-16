@@ -57,13 +57,13 @@ body {
 #main-content h3 {
 	text-align: center;
 }
-.about-food a, .about-food a:visited{
+.about-food a{
 	color: rgb(250, 170, 0);
 	font-weight: bold;
 	font-size: 1.2em;
 	text-decoration: none;
 }
-.about-food a:hover, .navbar-brand {
+.about-food a:hover{
 	color: rgb(250, 280, 0);
 }
 /* End Main Content */
@@ -93,7 +93,7 @@ body {
 @media (max-width: 767px) {
 	/*Main Content*/
 	#main-content{
-		width: 98%;
+		width: 9%;
 	}
 	/*End Content*/
 }
