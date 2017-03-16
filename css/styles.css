@@ -40,28 +40,65 @@ body {
 	font-size: 1.3em;
 }
 #navlist a:hover, .navbar-brand a:focus {
-	background-color: darkblue;
+	background-color: #000033;
 }
 #navlist hr {
 	margin: 0;
 }
 /*End Header*/
 /*Main Content*/
-#main-content .col-xs-12 {
+.about-food {
 	background-color: #20457C;
-	padding: 20px;
+	padding: 0 20px;
 	margin-top: 30px;
-	line-height: 2;
-	font-size: 1.5em;
-
+	font-size: 1.3em;
+	min-height: 700px;
 }
 #main-content h3 {
 	text-align: center;
 }
-
+.about-food a{
+	color: rgb(250, 170, 0);
+	font-weight: bold;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+.about-food a:hover, .navbar-brand {
+	color: rgb(250, 280, 0);
+}
 /* End Main Content */
+/* Footer */
+.panel-footer {
+	border: none;
+	background-color: #000033;
+	font-family: 'Lora', serif;
+	line-height: 2;
+	margin-top: 40px;
+}
+.panel-footer span {
+	font-size: 1.7em;
+}
+#testimonials {
+	font-family: cursive;
+	
+}
+#address p{
+	color: #1B945B;
+	font-size: .9em;
+}
+.panel-footer div.text-center{
+	font-size: 1.2em;
+}
+/*End Footer*/
 @media (max-width: 767px) {
+	/*Main Content*/
 	#main-content{
-		width: 90%;
+		width: 98%;
+	}
+	/*End Content*/
+}
+@media (min-width: 768px){
+	#testimonials {
+		font-size: 1.3em;
 	}
 }
