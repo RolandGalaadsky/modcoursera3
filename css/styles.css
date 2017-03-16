@@ -93,7 +93,7 @@ body {
 @media (max-width: 767px) {
 	/*Main Content*/
 	#main-content{
-		width: 9%;
+		width: 90%;
 	}
 	/*End Content*/
 }
