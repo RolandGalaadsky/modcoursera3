@@ -57,7 +57,7 @@ body {
 #main-content h3 {
 	text-align: center;
 }
-.about-food a{
+.about-food a, .about-food a:linked{
 	color: rgb(250, 170, 0);
 	font-weight: bold;
 	font-size: 1.2em;
